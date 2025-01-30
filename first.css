@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(226, 161, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 161, 116, 1) 12%,
+    rgba(213, 182, 157, 1) 47%,
+    rgba(187, 180, 175, 1) 61%
+  );
+  box-sizing: border-box;
+  z-index: 0;
+}
+.h1 {
+  width: 100%;
+  height: 10vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  margin: 0.8em 0 0.8em 0;
+  z-index: 1;
+}
+.h1 ul {
+  list-style-type: none;
+}
+.h1 ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  padding-left: 1.1em;
+  color: black;
+}
+.s1 {
+  background-image: url("Untitled123_-_Copy__2_-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: contain;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-family: "Georgia", serif;
+  font-size: 3em;
+  line-height: 30px;
+  text-indent: 1em;
+  letter-spacing: 0.4em;
+  padding-top: 0.5em;
+}
+.s1 img {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  left: 47%;
+  bottom: 0%;
+}
+.s21 {
+  width: 50%;
+  height: 20%;
+  margin: auto;
+  padding: 0px 5px 0px 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: -1px -1px 8px grey, 1px 1px 8px grey;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+.s21 p {
+  line-height: 25px;
+}
+.portfolio {
+    width:90%;
+    height:auto;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:10em;
+    margin-bottom: 5%;
+}
+.portfolio h1{
+    width: 50%;
+  height: 50vh;
+  margin: auto;
+  padding: 0px 5px 0px 5px;
+  border: 1px solid grey;
+  box-shadow: -1px -1px 3px grey, 1px 1px 3px grey;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: "Georgia", serif;
+  padding-top: 10px;
+  position:relative;
+  dispaly:inline;
+}
+.footer{
+    width:90%;
+    height:40vh;
+    margin:auto;
+
+}
+.portfolio h1:hover{
+    background-color: #be3870;
+
+}
+.portfolio #i1:hover::after{
+    content:'Download resume from below link to see all about me';
+    font-size: 16px;
+    color:white;
+    position: relative;
+    top:30%;
+    left:0%;
+}
+.portfolio #i2:hover::after{
+    content:'See project by visiting github. link is given below';
+    font-size: 16px;
+    color:white;
+    position: relative;
+    top:30%;
+    left:0px;
+    
+}
