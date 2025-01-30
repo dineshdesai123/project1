@@ -122,3 +122,15 @@ body {
     left:0px;
     
 }
+.s1 h1:first-child{
+  position:absolute;
+  top:10%;
+}
+.s1 h1:nth-child(2){
+  position:absolute;
+  top:26%;
+}
+.s1 p{
+  position:absolute;
+  top:45%;
+}
