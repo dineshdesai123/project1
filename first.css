@@ -79,6 +79,7 @@ body {
     flex-direction: row;
     justify-content:space-around;
     gap:10em;
+    position: relative;
     margin-bottom: 5%;
 }
 .portfolio h1{
@@ -89,38 +90,14 @@ body {
   border: 1px solid grey;
   box-shadow: -1px -1px 3px grey, 1px 1px 3px grey;
   margin-bottom: 5%;
-  text-align: center;
+  text-align:center;
   font-family: "Georgia", serif;
   padding-top: 10px;
   position:relative;
-  dispaly:inline;
-}
-.footer{
-    width:90%;
-    height:40vh;
-    margin:auto;
-
+  display:inline;
 }
 .portfolio h1:hover{
     background-color: #be3870;
-
-}
-.portfolio #i1:hover::after{
-    content:'Download resume from below link to see all about me';
-    font-size: 16px;
-    color:white;
-    position: relative;
-    top:30%;
-    left:0%;
-}
-.portfolio #i2:hover::after{
-    content:'See project by visiting github. link is given below';
-    font-size: 16px;
-    color:white;
-    position: relative;
-    top:30%;
-    left:0px;
-    
 }
 .s1 h1:first-child{
   position:absolute;
@@ -133,4 +110,36 @@ body {
 .s1 p{
   position:absolute;
   top:45%;
+}
+.i1 a{
+  text-decoration-line: none !important;
+  color:black;
+  font-size: 0.6em;
+  position:absolute;
+  top:47%;
+  left:33%;
+
+}
+#a1{
+  display:block;
+  text-decoration-line: none !important;
+  color:black;
+  font-size: 0.6em;
+  position:absolute;
+  top:25%;
+  left:10%;
+}
+.footer{
+  width:90%;
+  height:30vh;
+  margin:auto;
+}
+.f1 img{
+  width:6em;
+  height:6em;
+  padding-left: 5em;
+  margin-left:5em;
+}
+.f1 a{
+  cursor:pointer;
 }
