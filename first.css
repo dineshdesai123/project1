@@ -80,7 +80,7 @@ body {
     justify-content:space-around;
     gap:10em;
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom:3px;
 }
 .portfolio h1{
     width: 50%;
