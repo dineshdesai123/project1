@@ -1,0 +1,7 @@
+
+.s1 button:focus::after{
+    display:block;
+    width:auto;
+    height:auto;
+}
+#animate
