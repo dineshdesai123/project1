@@ -16,20 +16,23 @@ body {
   height: 10vh;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   color: black;
-  margin: 0.8em 0 0.8em 0;
+  margin:auto;
   z-index: 1;
 }
 .h1 ul {
   list-style-type: none;
+  width:40%;
+  margin:auto;
 }
 .h1 ul li {
   display: inline-block;
   font-size: 1.5em;
   padding-left: 1.1em;
+
   color: black;
 }
 .s1 {
