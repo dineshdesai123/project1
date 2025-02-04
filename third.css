@@ -1,0 +1,13 @@
+@media (max-width: 360px) {
+    .h1{
+       position:relative;
+       justify-content: space-between;
+       margin:auto;
+    }
+}
+@media (max-width: 360px) {
+    .m1{
+        position:relative;
+
+    }
+}

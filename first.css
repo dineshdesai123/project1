@@ -1,12 +1,12 @@
 body {
   margin: 0;
   height: 100vh;
-  background: rgb(226, 161, 116);
   background: linear-gradient(
     90deg,
     rgba(226, 161, 116, 1) 12%,
     rgba(213, 182, 157, 1) 47%,
-    rgba(187, 180, 175, 1) 61%
+    rgba(187, 180, 175, 1) 61%,
+    rgba(187, 180, 175, 1) 100%
   );
   box-sizing: border-box;
   z-index: 0;
@@ -16,6 +16,7 @@ body {
   height: 10vh;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
   color: black;
